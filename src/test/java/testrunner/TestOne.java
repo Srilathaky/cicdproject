@@ -13,6 +13,6 @@ public class TestOne {
     }
     @Test
     public void testthree(){
-        System.out.println("With Git Commit");
+        System.out.println("With Git Commit ---");
     }
 }
