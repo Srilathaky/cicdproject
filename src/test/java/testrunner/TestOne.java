@@ -11,4 +11,8 @@ public class TestOne {
     public void testtwo(){
         System.out.println("and with jenkins Integration");
     }
+    @Test
+    public void testthree(){
+        System.out.println("With Git Commit");
+    }
 }
