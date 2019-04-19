@@ -4,15 +4,15 @@ import org.testng.annotations.Test;
 
 public class TestOne {
     @Test
-    public void testone(){
-        System.out.println("This is Testng Project");
+    public void testOne(){
+        System.out.println("Test One");
     }
     @Test
-    public void testtwo(){
-        System.out.println("and with jenkins Integration");
+    public void testTwo(){
+        System.out.println("Test Two");
     }
     @Test
-    public void testthree(){
-        System.out.println(" With Git Commit7");
+    public void testThree(){
+        System.out.println("Test Three");
     }
 }

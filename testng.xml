@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/srilatha.y/Documents/Srilatha/IntelliJ_Projects/cicdproject/src/test/java/testrunner/TestOne.java"><classes><class name="testrunner.TestOne"><methods><include name="testone"/><include name="testtwo"/><include name="testthree"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="testrunner">
+        <classes>
+            <class name="testrunner.TestOne">
+                <methods>
+                    <include name="testOne"/>
+                    <include name="testTwo"/>
+                    <include name="testThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
