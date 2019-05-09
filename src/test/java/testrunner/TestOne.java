@@ -20,7 +20,12 @@ public class TestOne {
         System.out.println("Test Four ");
     }
     @Test
-    public void testFive(){
+    public void testFive() {
         System.out.println("Test Five");
+
+    }
+    @Test
+    public void testSix(){
+        System.out.println("Test Six ");
     }
 }
