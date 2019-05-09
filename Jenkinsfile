@@ -6,7 +6,7 @@ tools {
     stages {
         stage('Compile') {
             steps {
-                sh 'mvn clean install'
+                sh 'mvn compile'
             }
         }
         stage('Test') {
